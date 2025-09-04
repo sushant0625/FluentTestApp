@@ -87,5 +87,9 @@ export const x_snc_sso_lrm_test_legal_request_1 = Table({
             label: 'Request Reason',
             maxLength: 40,
         }),
+        request_type: StringColumn({
+            label: 'Request Type',
+            maxLength: 40,
+        })
     },
 })
